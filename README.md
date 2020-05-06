@@ -69,9 +69,4 @@ To test the access rights, after changing the access rights in IAM do the follow
 
 
 
-## General
-
-| Topic                 | Sub Topic                     |Link                       | Last Updated| 
-| -------------         | -------------                 |-------------              |------------- |
-|                   |  |                              |  |
 
