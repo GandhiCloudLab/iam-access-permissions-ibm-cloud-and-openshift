@@ -16,6 +16,7 @@ Here are the IAM roles.
 # Access rights summary
 
 | IAM Role| View all projects and its content | Rights to create New Project | Rights to create other objects like create POD |
+| -------------         | -------------                 |-------------              |------------- |
 | Administrator   | Yes | Yes | Yes |
 | Editor          | Yes | No | Yes |
 | Viewer          | Yes | No | No |
@@ -65,4 +66,12 @@ To test the access rights, after changing the access rights in IAM do the follow
 
 1. Logout `cloud.ibm.com` website from the browser
 2. Then Logout `Openshift web console` from the browser 
+
+
+
+## General
+
+| Topic                 | Sub Topic                     |Link                       | Last Updated| 
+| -------------         | -------------                 |-------------              |------------- |
+|                   |  |                              |  |
 
