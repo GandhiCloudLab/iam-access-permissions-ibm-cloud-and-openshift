@@ -1,4 +1,4 @@
-# IAM Access permssions between IBM Cloud and Managed Openshift
+# IAM Access permissions between IBM Cloud and Managed Openshift
 
 In IBM Cloud, the IAM users can have Viewer, Editor and Administrator permissions. Based on this permission the managed openshift allows IAM users to access the cluster.
 
