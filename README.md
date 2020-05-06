@@ -1,6 +1,6 @@
 # IAM Access permssions between IBM Cloud and Managed Openshift
 
-In IBM Cloud, the Viewer, Editor and Administrator permissions can be set to users in IAM. Based on this permission the managed openshift allows the IAM users to access the cluster.
+In IBM Cloud, the IAM users can have Viewer, Editor and Administrator permissions. Based on this permission the managed openshift allows IAM users to access the cluster.
 
 This document explains the mapping between IAM roles and its authorization in Openshift.
 
@@ -52,7 +52,7 @@ Viewer rights been set to the user like the below in the cluster.
 
 <img src="images/08-Viewer-Permission.png" width="900" title="Issue" bordercolor=green>
 
-The user can't to Create Projects but he can create PODS. 
+The user can't to Create both Projects and PODS. 
 
 <img src="images/09-Viewer-CreateProject.png" width="900" title="Issue" bordercolor=green>
 <img src="images/10-Viewer-CreatePOD.png" width="900" title="Issue" bordercolor=green>
@@ -61,8 +61,8 @@ The user can't to Create Projects but he can create PODS.
 
 # Note
 
-To test the access rights, after changing the access right in IAM do the following steps in sequence otherwise, the changes will not reflect.
+To test the access rights, after changing the access rights in IAM do the following steps in sequence otherwise, the changes will not reflect.
 
-1. Logout the `cloud.ibm.com` website from the browser
-2. Then Logout the `Openshift web console` from the browser 
+1. Logout `cloud.ibm.com` website from the browser
+2. Then Logout `Openshift web console` from the browser 
 
