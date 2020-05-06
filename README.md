@@ -15,7 +15,7 @@ Here are the IAM roles.
 
 # Access rights summary
 
-| IAM Role| View all projects and its content | Rights to create New Project | Rights to create other objects like create POD |
+| IAM Role| View all projects and its content | Create New Project | Create other objects like create POD |
 | -------------         | -------------                 |-------------              |------------- |
 | Administrator   | Yes | Yes | Yes |
 | Editor          | Yes | No | Yes |
